@@ -1,0 +1,17 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="com.practice.IntialFlowHookMethods.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="View 1">
+				<content>
+					<VBox>
+						<Input id="input1" placeholder="Enter input 1"/>
+						<Input id="input2" placeholder="Enter input 2"/>
+						<Input id="input3" placeholder="Enter input 3"/>
+						<Button text="Move Next" press="onMove"/>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
